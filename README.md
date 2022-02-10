@@ -1,6 +1,6 @@
-![IMG_20210703_204651_417](https://telegra.ph/file/4ba775a03fa8f386ec855.jpg)
+![IMG_20210703_204651_417](https://telegra.ph/file/797e2fd172b1b65bad264.jpg)
 
-# Atrocious_Mirror
+# CMT_Mirror
 
 **Atrocious_Mirror_Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
@@ -531,7 +531,7 @@ choose one of these:
 </details>            
 
 ## Index-Repo
-Recommended Index repo for [`Atrocious Mirror Bot`](https://github.com/Atrocious-Mirror-Bot/Atrocious_Mirror_Bot)
+Recommended Index repo for [`CMT Mirror Bot`](https://github.com/KedaiTube84/Mirror-Clone-Leech-Bot)
 <details>
     <summary><b>Click here for more details</b></summary>
 
