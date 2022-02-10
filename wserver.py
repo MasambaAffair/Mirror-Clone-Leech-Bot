@@ -204,13 +204,13 @@ input[type="submit"]:hover, input[type="submit"]:focus{
           src="https://telegra.ph/file/39a1878efeeb15b15633c.jpg"
           alt="logo"
         />
-        <a href="https://t.me/EunhaMirror"> 
+        <a href="https://t.me/RequestMovie84"> 
           <h2 class="name">Eunha Mirror Group</h2>
         </a>
       </div>
       <div class="social">
         <a href="https://github.com/vincreator/eunhamirror"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/EunhaMirror"><i class="fab fa-telegram"></i></a>
+        <a href="https://t.me/RequestMovie84"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -522,20 +522,20 @@ section span{
     </style>
   </head>
 <body>
-   <!--© Designed and coded by @bipuldey19-Telegram-->
+   <!--© Designed and coded by @Collection_MovieTerbaik-Telegram-->
     <header>
       <div class="brand">
         <img
           src="https://telegra.ph/file/39a1878efeeb15b15633c.jpg"
           alt="logo"
         />
-        <a href="https://t.me/EunhaMirror">
+        <a href="https://t.me/RequestMovie84">
           <h2 class="name">Eunha Mirror</h2>
         </a>
       </div>
       <div class="social">
         <a href="https://github.com/vincreator/eunhamirror"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/EunhaMirror"><i class="fab fa-telegram"></i></a>
+        <a href="https://t.me/RequestMovie84"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
