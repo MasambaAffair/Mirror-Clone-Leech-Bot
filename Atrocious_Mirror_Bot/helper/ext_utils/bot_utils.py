@@ -21,14 +21,14 @@ PAGE_NO = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING = "Uploading...📤"
-    STATUS_DOWNLOADING = "Downloading...📥"
-    STATUS_CLONING = "Cloning...♻️"
+    STATUS_UPLOADING = "Uploading CMT...📤"
+    STATUS_DOWNLOADING = "Downloading CMT...📥"
+    STATUS_CLONING = "Cloning CMT...♻️"
     STATUS_WAITING = "Queued...📝"
     STATUS_FAILED = "Failed 🚫. Cleaning Download..."
     STATUS_PAUSE = "Paused...⭕️"
     STATUS_ARCHIVING = "Archiving...🔐"
-    STATUS_EXTRACTING = "Extracting...📂"
+    STATUS_EXTRACTING = "Ekstrak...📂"
     STATUS_SPLITTING = "Splitting...✂️"
 
 
@@ -160,8 +160,8 @@ def get_readable_message():
         if STATUS_LIMIT is not None and dick_no > STATUS_LIMIT:
             msg += f"<b>Page:</b> <code>{PAGE_NO}</code>/<code>{pages}</code> | <b>Tasks:</b> <code>{dick_no}</code>\n"
             buttons = button_build.ButtonMaker()
-            buttons.sbutton("Previous", "pre")
-            buttons.sbutton("Next", "nex")
+            buttons.sbutton("Kembali", "pre")
+            buttons.sbutton("Lanjut", "nex")
             button = InlineKeyboardMarkup(buttons.build_menu(2))
             return msg, button
         return msg, ""
