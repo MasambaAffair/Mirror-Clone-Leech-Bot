@@ -50,10 +50,10 @@ def start(update, context):
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-Hi, I'm Atrocious Mirror Bot, a multipurpose bot for [AL-NOMAN](t.me/smexynos7870)
+Hi, I'm CMT Mirror Bot, a multipurpose bot for [CMT](t.me/Collection_MovieTerbaik)
 I can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
-For any question join [Atrocious Bot Support](t.me/Atrocious_Bot_Support)
+For any question join [CMT Bot Support](t.me/RequestMovie84)
 '''
     update.effective_message.reply_photo("https://telegra.ph/file/797e2fd172b1b65bad264.jpg", start_string, parse_mode=ParseMode.MARKDOWN)
         
@@ -236,7 +236,7 @@ def main():
         os.remove(".restartmsg")
     elif OWNER_ID:
         try:
-            text = "<b>Atrocious Mirror Bot Restarted!</b>"
+            text = "<b>CMT Mirror Bot Restarted!</b>"
             bot.sendMessage(chat_id=OWNER_ID, text=text, parse_mode=ParseMode.HTML)
             if AUTHORIZED_CHATS:
                 for i in AUTHORIZED_CHATS:
@@ -261,7 +261,7 @@ def main():
     dispatcher.add_handler(stats_handler)
     dispatcher.add_handler(log_handler)
     updater.start_polling(drop_pending_updates=IGNORE_PENDING_REQUESTS)
-    LOGGER.info("Atrocious Mirror Bot Started!")
+    LOGGER.info("CMT Mirror Bot Started!")
     signal.signal(signal.SIGINT, fs_utils.exit_clean_up)
 
 app.start()
